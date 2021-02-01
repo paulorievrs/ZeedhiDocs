@@ -24,7 +24,7 @@
 
 <div class="propriedade-box">
 
-showOnList
+### showOnList
 
 + Recebe: true/false
 + Ação: Lista no grid
@@ -39,7 +39,7 @@ showOnList
 
 <div class="propriedade-box">
 
-showOnForm
+### showOnForm
 
 + Recebe: true/false
 + Ação: Edita/Inclui registro
@@ -54,7 +54,7 @@ showOnForm
 
 <div class="propriedade-box">
 
-readOnly
+### readOnly
 
 + Recebe: true/false
 + Ação: Se é somente visivel ou passível de edição
@@ -69,7 +69,7 @@ readOnly
 
 <div class="propriedade-box">
 
-isVisible
+### isVisible
 
 + Recebe: true/false
 + Ação: Se o campo é visivel ou não
@@ -85,7 +85,7 @@ isVisible
 
 <div class="propriedade-box">
 
-template
+### template
 
 + Recebe: string da localidade de um template
 + Ação: Define o template da field/widget
@@ -100,7 +100,7 @@ template
 
 <div class="propriedade-box">
 
-validations
+### validations
 
 + Recebe: Objeto com definições de validações
 + Ação: Diz quais validações devem ser feitas pelo campo
@@ -119,7 +119,7 @@ validations
 
 <div class="propriedade-box">
 
-filterProperties
+### filterProperties
 
 + Recebe: Objeto com propriedades que serão exibidas só na parte de filtragem
 + Ação: Define propriedades específicas para aba de filtros, pode ser utilizado quaisquer outra propriedade
