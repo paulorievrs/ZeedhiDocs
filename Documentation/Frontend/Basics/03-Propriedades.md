@@ -138,3 +138,12 @@ Você também pode:
 ```json
  "label": "nome do campo para user",
 ```
+
+### name
+
++ Recebe: string
++ Ação: define o nome do campo que poderá ser adquirido no backend se enviar como row e também será esse o nome da currentRow
++ Exemplo:
+```json
+ "name": "nome do campo",
+```
