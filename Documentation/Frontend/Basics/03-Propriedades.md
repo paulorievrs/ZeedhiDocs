@@ -156,3 +156,11 @@ Você também pode:
 ```json
  "maxlength": 20,
 ```
+
+### class
++ Recebe: integer
++ Ação: define o tamanho do campo em seu espaço, parece com bootstrap, um espaço tem um máximo de tamanho 12.
++ Exemplo:
+```json
+ "class": 12,
+```
