@@ -4,6 +4,8 @@
 
 As widgts que majoritariamente constroem a página. São componentes que tem propriedades específicas que ajudam a construir.
 
+###### Utilize CTRL+F para buscar palavras chaves ou as widgets ou fields em si.
+
 ```
 project
 │   backend

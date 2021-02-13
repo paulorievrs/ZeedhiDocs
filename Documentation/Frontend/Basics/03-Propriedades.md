@@ -2,6 +2,7 @@
 # Propriedades
 
 As propriedades de widgets são algumas definições de comportamento dentro da tela de cada uma delas, uma lista delas seria:
+###### Utilize CTRL+F para buscar palavras chaves ou as propriedades em si.
 
 ### showOnView
 
@@ -14,7 +15,7 @@ As propriedades de widgets são algumas definições de comportamento dentro da 
      "showOnView": true
      ```
 
-<small>Keys: showOnView, swipe</small>
+###### Keys: showOnView, swipe
 
 
 ### showOnList
@@ -26,7 +27,7 @@ As propriedades de widgets são algumas definições de comportamento dentro da 
     ```json
      "showOnList": true
      ```
-<small>Keys: showOnList, grid, lista</small>
+###### Keys: showOnList, grid, lista
 
 
 ### showOnForm
@@ -38,7 +39,7 @@ As propriedades de widgets são algumas definições de comportamento dentro da 
     ```json
      "showOnForm": true
      ```
-<small>Keys: showOnForm, incuir, alterar, editar</small>
+###### Keys: showOnForm, incuir, alterar, editar
 
 
 ### readOnly
@@ -50,7 +51,7 @@ As propriedades de widgets são algumas definições de comportamento dentro da 
     ```json
      "readOnly": true
      ```
-<small>Keys: readOnly, editar, leitura, read</small>
+###### Keys: readOnly, editar, leitura, read
 
 
 ### isVisible
@@ -62,7 +63,7 @@ As propriedades de widgets são algumas definições de comportamento dentro da 
     ```json
      "isVisible": true
      ```
-<small>Keys: isVisible, visibilidade, campo</small>
+###### Keys: isVisible, visibilidade, campo
 
 
 
@@ -75,7 +76,7 @@ As propriedades de widgets são algumas definições de comportamento dentro da 
     ```json
      "template": "field/select-multiple.html"
      ```
-<small>Keys: template</small>
+###### Keys: template
 
 
 ### validations
@@ -97,7 +98,7 @@ Você também pode:
 "validations": false
 ```
 
-<small>Keys: validação, validacao, required</small>
+###### Keys: validação, validacao, required
 
 
 ### filterProperties
@@ -110,7 +111,7 @@ Você também pode:
         "isVisible": false
     }
 ```
-<small>Keys: filtro, propriedades</small>
+###### Keys: filtro, propriedades
 
 
 ### dataSource
@@ -124,11 +125,12 @@ Você também pode:
 + Exemplo:
 ```json
  "dataSource": {
-    "name": "cadSup#/fornecedor_visualizacao",
+    "name": "modulo#/arquivo",
     "lazyLoad": false,
     "rest": true
  },
 ```
+###### Keys: dataSource, banco de dados, dados
 
 ### label
 
@@ -138,6 +140,7 @@ Você também pode:
 ```json
  "label": "nome do campo para user",
 ```
+###### Keys: label, user, usuário
 
 ### name
 
@@ -147,6 +150,7 @@ Você também pode:
 ```json
  "name": "nome do campo",
 ```
+###### Keys: name, nome, campo
 
 ### maxlength
 
@@ -156,6 +160,7 @@ Você também pode:
 ```json
  "maxlength": 20,
 ```
+###### Keys: field, tamanho da field
 
 ### class
 + Recebe: integer
@@ -164,3 +169,4 @@ Você também pode:
 ```json
  "class": 12,
 ```
+###### Keys: bootstrap, size, field, tamanho, campo

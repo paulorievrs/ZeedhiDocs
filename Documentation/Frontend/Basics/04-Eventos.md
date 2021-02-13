@@ -1,5 +1,6 @@
 # Eventos
 As widgets contem eventos que podem ser realizados. Uma lista deles é:
+###### Utilize CTRL+F para buscar os eventos.
 
 ```js
 'WidgetBeforeInlineEditMoveRow',
