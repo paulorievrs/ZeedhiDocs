@@ -129,3 +129,12 @@ Você também pode:
     "rest": true
  },
 ```
+
+### label
+
++ Recebe: string
++ Ação: define o nome que mostrará ao usuário no campo.
++ Exemplo:
+```json
+ "label": "nome do campo para user",
+```
