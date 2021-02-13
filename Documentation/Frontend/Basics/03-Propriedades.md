@@ -111,3 +111,21 @@ Você também pode:
     }
 ```
 <small>Keys: filtro, propriedades</small>
+
+
+### dataSource
+
++ Recebe: Objeto com propriedades específicas para o dataSource
++ Ação: Define de onde virá o dataSource ou se ele será fixo
++ Em name: path para o dataSource ou seu nome se ele for fixo
++ lazyLoad: Em true, ele carregará somente quando clicar na field, em false assim que entrar na widget
++ rest: em true vai ser buscado do banco de dados, em false irá ser um dataSource fixo.
++ data: passe um array com os dados caso o dataSource seja fixo
++ Exemplo:
+```json
+ "dataSource": {
+    "name": "cadSup#/fornecedor_visualizacao",
+    "lazyLoad": false,
+    "rest": true
+ },
+```
