@@ -147,3 +147,12 @@ Você também pode:
 ```json
  "name": "nome do campo",
 ```
+
+### maxlength
+
++ Recebe: integer
++ Ação: define o tamanho de caracteres que um campo poder ter
++ Exemplo:
+```json
+ "maxlength": 20,
+```
