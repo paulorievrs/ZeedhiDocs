@@ -27,12 +27,10 @@ O objeto se inicia com as propriedades:
 
 + <strong>Widgets</strong> Essa propriedade recebe um array que vai passar as widgets que resumindamente são componentes que vão compor a tela. Vamos ter uma parte sobre elas.
 
-+ <strong>paramentMenuName</strong> ?
-+ <strong>paramentMenuLabel</strong> ?
 
 ### Id's
 
-Existe um ID para cada componente/widget, não somente na sua tela mas em tudo. Cada um tem um ID específico que é gerado. Não crie ID's manualmente.
+Existe um ID para cada componente/widget, não somente na sua tela mas em tudo. Cada um tem um ID específico que é gerado. Não crie ID's manualmente e não altere ID's já existentes sem saber o que está fezendo.
 
 <hr>
 
@@ -48,8 +46,6 @@ Vamos Agora criar uma tela simples que não irá ter nada, mas será um template
     "template": "container/window.html",
     "footer": "component/footer.html",
     "widgets": [],
-    "parentMenuName": "docspessoal",
-    "parentMenuLabel": "Criando uma docs pessoal"
 }
 
 ```

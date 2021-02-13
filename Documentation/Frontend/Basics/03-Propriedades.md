@@ -1,11 +1,7 @@
 
-<link rel="stylesheet" type="text/css" media="all" href="../../../Assets/css/style.css" />
-
 # Propriedades
 
-<span>As propriedades de widgets são algumas definições de comportamento dentro da tela de cada uma delas, uma lista delas seria:</span>
-
-<div class="propriedade-box">
+As propriedades de widgets são algumas definições de comportamento dentro da tela de cada uma delas, uma lista delas seria:
 
 ### showOnView
 
@@ -20,9 +16,6 @@
 
 <small>Keys: showOnView, swipe</small>
 
-</div>
-
-<div class="propriedade-box">
 
 ### showOnList
 
@@ -35,9 +28,6 @@
      ```
 <small>Keys: showOnList, grid, lista</small>
 
-</div>
-
-<div class="propriedade-box">
 
 ### showOnForm
 
@@ -50,9 +40,6 @@
      ```
 <small>Keys: showOnForm, incuir, alterar, editar</small>
 
-</div>
-
-<div class="propriedade-box">
 
 ### readOnly
 
@@ -65,9 +52,6 @@
      ```
 <small>Keys: readOnly, editar, leitura, read</small>
 
-</div>
-
-<div class="propriedade-box">
 
 ### isVisible
 
@@ -80,10 +64,7 @@
      ```
 <small>Keys: isVisible, visibilidade, campo</small>
 
-</div>
 
-
-<div class="propriedade-box">
 
 ### template
 
@@ -96,9 +77,6 @@
      ```
 <small>Keys: template</small>
 
-</div>
-
-<div class="propriedade-box">
 
 ### validations
 
@@ -113,11 +91,14 @@
         "required": true
     },
 ```
+Você também pode:
+
+```json
+"validations": false
+```
+
 <small>Keys: validação, validacao, required</small>
 
-</div>
-
-<div class="propriedade-box">
 
 ### filterProperties
 
@@ -130,5 +111,3 @@
     }
 ```
 <small>Keys: filtro, propriedades</small>
-
-</div>
